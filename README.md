@@ -1,5 +1,8 @@
 # Messenger [![GoDoc](https://godoc.org/github.com/paked/messenger?status.svg)](https://godoc.org/github.com/paked/messenger)
 
+This is a fork from the library: github.com/paked/messenger. Main changes in this library is that is has been modified to work with Amazon API Gateway and Lambda Functions by leveraging github.com/tmaiaroto/aegis library.
+
+## Original README file
 This is a Go library for making bots to be used on Facebook messenger. It is built on the [Messenger Platform](https://developers.facebook.com/docs/messenger-platform). One of the main goals of the project is to implement it in an idiomatic and easy to use fashion.
 
 [You can find an example of how to use it here](https://github.com/paked/messenger/blob/master/cmd/bot/main.go)
